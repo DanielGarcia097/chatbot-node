@@ -34,7 +34,7 @@ jobs:
           zip -r deploy.zip . -x node_modules/**\*
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapp-deploy@1
+        uses: azure/webapp-deploy@v1
         with:
           app-name: 'dgarcia-language-bot-c862'
           slot-name: 'Production'
