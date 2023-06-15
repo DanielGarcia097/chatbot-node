@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'dgarcia-language-bot-c862'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2EC661C411B841D9A1A9763E9F3C485C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EBB468DDCBE74D3FA8005836A7CD555B }}
           package: .
