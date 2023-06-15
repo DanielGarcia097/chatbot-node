@@ -55,6 +55,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
+          excludeNodeModules: true
           app-name: 'dgarcia-language-bot-c862'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EBB468DDCBE74D3FA8005836A7CD555B }}

@@ -2,6 +2,7 @@
     "name": "qnamaker-bot-msi",
     "version": "1.0.0",
     "engines": {
+        "node": ">=16.0.0",
         "npm": ">=9.6.6"
     },
     "description": "Bot Builder v4 using QnA Maker service with active learning and multi-turn experience.",
